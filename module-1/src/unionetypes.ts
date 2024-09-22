@@ -14,19 +14,20 @@
 
     type FontendDev = {
         skill: string[];
-        dev: "fontend dev";
+        dev2: "fontend dev";
     }
     
     type BackendDev = {
         skill: string[];
-        dev: "backend dev";
+        dev1: "backend dev";
     }
     
-    type FullStackDev = BackendDev | FontendDev;
+    type FullStackDev = BackendDev & FontendDev;
     
     const developer : FullStackDev= {
         skill: ["HTML", "CSS"],
-        dev: "fontend dev" // This value should match the one required for FontendDev
+        dev2: "fontend dev", // This value should match the one required for FontendDev
+        dev1: "backend dev"
     };
     
 }

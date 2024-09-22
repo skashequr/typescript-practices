@@ -6,6 +6,7 @@
     };
     const developer = {
         skill: ["HTML", "CSS"],
-        dev: "fontend dev" // This value should match the one required for FontendDev
+        dev2: "fontend dev", // This value should match the one required for FontendDev
+        dev1: "backend dev"
     };
 }
