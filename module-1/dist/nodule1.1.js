@@ -19,4 +19,3 @@ const z = "string";
 const a = null;
 const b = undefined;
 const c = Symbol("description");
-
