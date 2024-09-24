@@ -22,5 +22,14 @@
        }
     ]
         
+    // Generic topple
+
+    const manus : [string,string] = ["sheikh " ,"ashequr"];
+
+    //generic mode
+
+    type GeenericTople <X,Y> = [X,Y];
+
+    const manush2 : GeenericTople<string,string> =["ds" ,"sdgd"]
     
 }
