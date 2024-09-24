@@ -11,4 +11,7 @@
             age: 88
         }
     ];
+    // Generic topple
+    const manus = ["sheikh ", "ashequr"];
+    const manush2 = ["ds", "sdgd"];
 }
